@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Quiz System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .quiz-container {
+      width: 60%;
+      margin: 50px auto;
+      background: #fff;
+      padding: 20px 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .quiz-container h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .question {
+      margin-bottom: 20px;
+    }
+
+    .question p {
+      font-weight: bold;
+      color: #444;
+    }
+
+    label {
+      display: block;
+      margin: 5px 0;
+      cursor: pointer;
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="quiz-container">
+    <h1>Online Quiz System</h1>
+    <form id="quiz-form">3aczx
+      <!--Question 1-->
+      <div class="question">
+        <p>1.Which language is used for Android development?</p>
+        <label><input type="radio" name="q1" value="python"> Python</label>
+        <label><input type="radio" name="q1" value="java"> Java</label>
+        <label><input type="radio" name="q1" vlaue="c++"> C++</label>
+        <label><input type="radio" name="q1" value="Ruby"> Ruby</label>
+      </div>
+      <!--Question 2-->
+      <div class="question">
+        <p>2.What does HTML stand for?</p>
+        <label><input type="radio" name="q2" value="Hyper Trainer Marking Language"> Hyper Trainer Marking
+          Language</label>
+        <label><input type="radio" name="q2" value="Hyper Text Markup Language"> Hyper Text Markup
+          Language</label>
+        <label><input type="radio" name="q2" value="Hyper Text Marketing Language"> Hyper Text
+          MarketingLanguage</label>
+        <label><input type="radio" name="q2" value="Hyper Text Machine Language"> Hyper Text Machine
+          Language</label>
+      </div>
+      <!--Question 3-->
+      <div class="question">
+        <p>3.Wich data structur uses FIFO</p>
+        <label><input type="radio" name="q3" value="Stack"> Stack</label>
+        <label><input type="radio" name="q3" value="Queue"> Queue</label>
+        <label><input type="radio" name="q3" value="Tree"> Tree</label>
+        <label><input type="radio" name="q3" value="Graph"> Graph</label>
+      </div>
+      <button type="submit">Submit Quiz</button>
+    </form>
+  </div>
+</body>
+
+</html>
